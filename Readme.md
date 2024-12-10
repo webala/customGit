@@ -92,10 +92,23 @@ Here are the commands that `customGit.sh` can execute:
 - **Common Issue 1**: Description and solution.
 - **Common Issue 2**: Description and solution.
 
-## Contributing
 
-Provide guidelines for contributing to the project, if applicable.
+## TODO
 
-## License
+- [x] Initialize repositories in a directory and the repository proper should be stored in a dot-prefixed subdirectory
+- [x] Stage files in the repository
+      - Create a staging folder and store the working tree of the latest work in the working directory
 
-Include the project's license information here.
+- [ ] Commit files in the repository
+- [ ] View commit history
+- [ ] Create branches
+- [ ] Checkout branches
+- [ ] Merge branches
+- [x] View diff between branches
+- [ ] Detect conflicts in merge
+- [ ] Clone repository on disk
+
+
+
+
+
