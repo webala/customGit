@@ -76,7 +76,7 @@ To run the project, use the `customGit.sh` script. This script will execute the 
 
 Here are the commands that `customGit.sh` can execute:
 
-   **hello**: Prints "Hello, world!" to the console.
+- **hello**: Prints "Hello, world!" to the console.
 
    ```bash
    ./customGit.sh hello
@@ -84,7 +84,7 @@ Here are the commands that `customGit.sh` can execute:
 
 
 
-  **init**: Initialize a new repository in the current directory.
+- **init**: Initialize a new repository in the current directory.
 
    ```bash
    ./customGit.sh init
@@ -114,7 +114,7 @@ Here are the commands that `customGit.sh` can execute:
 
 
 
-  **stage**: Create a tree object of the current working tree and store it in the staging directory.
+- **stage**: Create a tree object of the current working tree and store it in the staging directory.
 
    ```bash
     ./customGit.sh stage
@@ -125,14 +125,14 @@ Here are the commands that `customGit.sh` can execute:
    The staging directory is located in the .customGit directory.
 
  
- 
-   **commit**: Moves the staged files from the staging directory to the objects directory and creates a commit object. Changes the HEAD reference to point to the new commit.
+
+- **commit**: Moves the staged files from the staging directory to the objects directory and creates a commit object. Changes the HEAD reference to point to the new commit.
 
    ```bash
    ./customGit.sh commit <commit-message>
    ```
 
--  **diff**: Prints the difference between two working trees. It can be used to compare the working tree of the current branch with the working tree of a different branch. It can also be used to compare the working tree of the current branch with the staging directory.
+- **diff**: Prints the difference between two working trees. It can be used to compare the working tree of the current branch with the working tree of a different branch. It can also be used to compare the working tree of the current branch with the staging directory.
 
    ```bash
    ./customGit.sh diff <treeHash1> <treeHash2>
@@ -140,14 +140,14 @@ Here are the commands that `customGit.sh` can execute:
 
 
 
-   **branch**: Create a new branch.
+ - **branch**: Create a new branch.
 
    ```bash
    ./customGit.sh branch <branchName>
    ```
 
 
-   **checkout**: Switch to a branch.
+- **checkout**: Switch to a branch.
 
    ```bash
    ./customGit.sh checkout <branchName>
